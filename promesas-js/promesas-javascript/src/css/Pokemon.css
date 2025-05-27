@@ -1,0 +1,87 @@
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ---- Pokemon - https://pokeapi.co/ ---- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+.pokemonSection {
+  padding: 2rem;
+  background: #f8f9fa;
+}
+.pokemonProfile {
+  max-width: 75rem;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.mainInfo {
+  text-align: center;
+}
+.pokemonSection h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  padding-bottom: 0.5rem;
+}
+.mainInfo img {
+  margin: 0 auto;
+  display: block;
+  width: 12.5rem;
+  height: 12.5rem;
+  object-fit: contain;
+}
+.Stats {
+  margin-top: 1rem;
+}
+.Stats p {
+  margin: 0.5rem 0;
+  color: #f8f9fa;
+}
+.Types {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.Type {
+  padding: 0.3rem 0.8rem;
+  background: #3498db;
+  color: white;
+  border-radius: 1rem;
+  font-size: 0.9rem;
+}
+.Abilities {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.Abilities h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  padding-bottom: 0.5rem;
+}
+.Ability {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  background: #f8f9fa;
+  border-radius: 0.5rem;
+}
+.Ability p {
+  margin: 0.5rem 0;
+  color: #2c3e50;
+  font-size: 1rem;
+}
+.hiddenTag {
+  background: #e74c3c;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+}

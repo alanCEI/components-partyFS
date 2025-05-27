@@ -1,0 +1,53 @@
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ------------ Media Queries ------------ */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* Mobile */
+@media (max-width: 480px) {
+  .h1 { 
+    font-size: 2rem; 
+  }
+  .appHeader, .appFooter {
+    padding: 2rem 1rem;
+  }
+  .pokemonProfile, .monsterProfile {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .usersGrid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1.9rem 2rem;
+  }
+  .mainInfo img {
+    width: 100%;
+    height: auto;
+  }
+  .Pager {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+/* Tablet */
+@media (max-width: 768px) {
+  .h1 { 
+    font-size: 2rem; 
+  }
+  .appHeader p { 
+    font-size: 1rem; 
+  }
+  .usersGrid {
+    padding: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .monsterProfile, .pokemonProfile {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+/* Desktop */
+@media (max-width: 1024px) {
+  .appMain {
+    padding: 0 2rem;
+  }
+}

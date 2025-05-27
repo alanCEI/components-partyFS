@@ -1,0 +1,69 @@
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --- Random User - randomuser.me/api --- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+.usersSection {
+  padding: 2rem;
+  background: #f8f9fa;
+}
+.usersGrid {
+  padding: 1.9rem 1rem;
+  max-width: 100%;
+  display: grid;
+  gap: 1.9rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.userCard {
+  background: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+.userCard:hover {
+  transform: translateY(-5px);
+}
+.userCard img { 
+  width: 100%;
+  padding: 1rem 0;
+  display: block;
+  height: auto;
+  max-height: 20rem;
+  object-fit: contain;
+}
+.userInfo {
+  padding: 1.5rem;
+  text-align: center;
+}
+.userInfo h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  padding-bottom: 0.5rem;
+}
+.userInfo p {
+  margin: 0.3rem 0;
+  color: #7f8c8d;
+  font-size: 1rem;
+}
+.Pager {
+  display: flex;
+  justify-content: center;
+  margin: 1.875rem 0;
+}
+.pagerBtn {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+.pagerBtn:hover {
+  background-color: #5CAD4A;
+}
