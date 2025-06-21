@@ -1,5 +1,5 @@
-# Define los paquetes que forman parte del monorepo.
-
 packages:
-  - 'frontend'
-  - 'api'
+  - frontend
+  - api
+onlyBuiltDependencies:
+  - esbuild
