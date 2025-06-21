@@ -1,0 +1,14 @@
+{
+  "name": "entornos-react-express",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "install-all": "pnpm install",
+    "dev": "concurrently \"pnpm --filter api dev\" \"pnpm --filter frontend dev\"",
+    "build": "pnpm --filter frontend build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "pnpm": "^9.15.9"
+  }
+}

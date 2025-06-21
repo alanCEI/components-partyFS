@@ -1,0 +1,3 @@
+# Entornos / ReactJS y ExpressJS
+
+Investigue como realizar la configuracion del build con vercel pero me di cuenta que para los entornos se han indicado opciones con module.exports o separando la url del localhost. Revisando me he dado cuenta que es mejor opcion definir los entornos como en el video de entornos - practica, un poco mas general pero me ayuda a verlo mejor al integrar vercel por ahora.
