@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
 // Dev local
 app.listen(PORT, () => {
-  console.log(`API corriendo en http://localhost:${PORT}`);
+  console.log(`API funcionando en http://localhost:${PORT}`);
 });
 
 export default app;
